@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Nelly Mollocondo: Bachiller en Ingeniería Informática orientada a DevOps Junior. Linux, Docker, CI/CD y cloud con base en soporte y monitoreo."
+    />
+    <title>Nelly Mollocondo — DevOps Junior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#proyectos">Saltar al contenido</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="#inicio" aria-label="Inicio">Nelly<span>.</span></a>
+        <nav class="nav" aria-label="Principal">
+          <a href="#proyectos">Proyectos</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú">
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav id="mobile-nav" class="mobile-nav" hidden>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero" aria-labelledby="hero-brand">
+        <!--<div class="hero-plane" aria-hidden="true">
+          <div class="hero-grid"></div>
+          <pre class="hero-terminal">
+<span class="t-muted"># lab 01 — linux server</span>
+<span class="t-prompt">$</span> docker run -d --name ubuntu-lab ubuntu:22.04
+<span class="t-ok">→ container started</span>
+<span class="t-prompt">$</span> ssh devops@lab
+<span class="t-muted">Welcome to Ubuntu 22.04 LTS</span>
+<span class="t-prompt">$</span> <span class="t-cursor">█</span>
+          </pre>
+        </div>-->
+
+        <div class="wrap hero-content">
+          <p class="eyebrow">Portafolio práctico</p>
+          <h1 id="hero-brand">Nelly</h1>
+          <p class="hero-role">DevOps Junior · en formación</p>
+          <p class="hero-lead">
+            Bachiller en Ingeniería Informática con experiencia en soporte de aplicaciones y monitoreo. Construyo laboratorios de Linux, Docker y CI/CD para orientar mi perfil hacia un rol DevOps Junior.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-ghost" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section" aria-labelledby="proyectos-title">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow">Trabajo por etapas</p>
+            <h2 id="proyectos-title">Proyectos</h2>
+            <p class="section-lead">
+              Cada laboratorio demuestra una habilidad concreta. El proyecto 05 integra el flujo completo.
+            </p>
+          </div>
+
+          <ol class="project-list">
+            <li class="project-item is-active">
+              <div class="project-meta">
+                <span class="project-num">01</span>
+                <span class="status status-build">En construcción</span>
+              </div>
+              <h3>Servidor Linux con Docker</h3>
+              <p>
+                Laboratorio Ubuntu: usuarios, SSH, procesos, puertos, networking, logs y troubleshooting.
+              </p>
+              <p class="project-skills">Linux · SSH · Docker · Redes</p>
+              <a class="text-link" href="01-linux-docker-server/">Documentación técnica →</a>
+            </li>
+
+            <li class="project-item">
+              <div class="project-meta">
+                <span class="project-num">02</span>
+                <span class="status status-pending">Pendiente</span>
+              </div>
+              <h3>Aplicación Dockerizada</h3>
+              <p>
+                Dockerfile, imágenes, variables de entorno, volúmenes, redes y Docker Compose.
+              </p>
+              <p class="project-skills">Docker · Compose · Env · Volúmenes</p>
+              <a class="text-link" href="02-dockerized-application/">Documentación técnica →</a>
+            </li>
+
+            <li class="project-item">
+              <div class="project-meta">
+                <span class="project-num">03</span>
+                <span class="status status-pending">Pendiente</span>
+              </div>
+              <h3>CI/CD con GitHub Actions</h3>
+              <p>
+                Push → Actions → pruebas → build de imagen Docker. Automatización del flujo de entrega.
+              </p>
+              <p class="project-skills">Git · GitHub Actions · Docker · CI/CD</p>
+              <a class="text-link" href="03-ci-cd-github-actions/">Documentación técnica →</a>
+            </li>
+
+            <li class="project-item">
+              <div class="project-meta">
+                <span class="project-num">04</span>
+                <span class="status status-pending">Pendiente</span>
+              </div>
+              <h3>Despliegue en Cloud</h3>
+              <p>
+                VM Linux, SSH, Docker, firewall básico y despliegue de la aplicación fuera del entorno local.
+              </p>
+              <p class="project-skills">Cloud · Linux · SSH · Firewall</p>
+              <a class="text-link" href="04-cloud-deployment/">Documentación técnica →</a>
+            </li>
+
+            <li class="project-item project-featured">
+              <div class="project-meta">
+                <span class="project-num">05</span>
+                <span class="status status-pending">Proyecto principal</span>
+              </div>
+              <h3>Proyecto integrador</h3>
+              <p>
+                Flujo end-to-end: GitHub → Actions → tests → imagen → registry → servidor cloud → app.
+              </p>
+              <p class="project-skills">CI/CD · Registry · Cloud · Docker</p>
+              <a class="text-link" href="05-full-devops-project/">Documentación técnica →</a>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section section-alt" aria-labelledby="skills-title">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="eyebrow">Base + aprendizaje</p>
+            <h2 id="skills-title">Habilidades</h2>
+            <p class="section-lead">
+              Combino experiencia real en soporte y monitoreo con laboratorios prácticos de DevOps.
+              Distingo lo que ya aplico en el trabajo de lo que estoy aprendiendo.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <div>
+              <h3>Soporte y operación</h3>
+              <ul>
+                <li>Gestión de incidencias (ITIL 4)</li>
+                <li>Jira, Remedy, service desk</li>
+                <li>Pruebas funcionales y Postman</li>
+                <li>Seguimiento de SLA</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Sistemas y monitoreo</h3>
+              <ul>
+                <li>Linux (uso operativo)</li>
+                <li>Zabbix, Nagios, Kibana</li>
+                <li>Monitoreo de servidores</li>
+                <li>Apoyo en despliegues</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Datos</h3>
+              <ul>
+                <li>PL/SQL (intermedio)</li>
+                <li>SQL Developer</li>
+              </ul>
+            </div>
+            <div>
+              <h3>DevOps <span class="tag-learn">aprendiendo</span></h3>
+              <ul>
+                <li>Docker / Docker Compose</li>
+                <li>Git / GitHub</li>
+                <li>Bash</li>
+                <li>GitHub Actions</li>
+                <li>Cloud (VM Linux)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section" aria-labelledby="about-title">
+        <div class="wrap about-layout">
+          <div class="section-head">
+            <p class="eyebrow">Perfil</p>
+            <h2 id="about-title">Sobre mí</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              Soy <strong>Nelly</strong>, bachiller en Ingeniería Informática por la
+              Universidad Nacional Federico Villarreal. Trabajo como analista de soporte de aplicaciones:
+              atiendo incidencias, monitoreo plataformas, valido APIs y apoyo despliegues en ambientes de prueba y productivos.
+            </p>
+            <p>
+              Esa base operativa —Linux, tickets, SLA, cambios y documentación— es el punto de partida
+              hacia <strong>DevOps Junior</strong>. En este portafolio construyo laboratorios con Docker, automatización y CI/CD
+              para demostrar lo que estoy aprendiendo con proyectos reales y honestos.
+            </p>
+            <ul class="about-points">
+              <li>Experiencia real en soporte, monitoreo y continuidad del servicio</li>
+              <li>Formación en ITIL 4, PL/SQL y front-end web</li>
+              <li>Autodidacta, adaptable y orientada a resultados</li>
+              <li>No invento experiencia DevOps: la demuestro con laboratorios documentados</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section section-contact" aria-labelledby="contact-title">
+        <div class="wrap contact-inner">
+          <p class="eyebrow">Siguiente paso</p>
+          <h2 id="contact-title">Contacto</h2>
+          <p class="section-lead">
+            Si buscas un perfil junior con experiencia en soporte/operación y ganas reales de crecer en DevOps,
+            conversemos.
+          </p>
+          <div class="contact-actions">
+             <a
+              class="btn btn-ghost"
+              href="https://www.linkedin.com/in/nellymollocondo"
+              rel="noopener noreferrer"
+              target="_blank"
+              >LinkedIn</a
+            >
+         
+            <a class="btn btn-ghost" href="https://github.com/NellyMollocondo" rel="noopener noreferrer" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>Nelly Mollocondo — Portafolio DevOps Junior</p>
+        <p class="footer-note">Lima ❤️ Perú · 2026</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

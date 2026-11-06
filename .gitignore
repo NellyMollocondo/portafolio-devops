@@ -1,0 +1,47 @@
+#Carpetas de laboratorios
+01-linux-docker-server/
+02-dockerized-application/
+03-ci-cd-github-actions/
+04-cloud-deployment/
+05-full-devops-project/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Entornos y secretos (nunca subir)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+secrets/
+credentials/
+
+# Docker / temporales
+*.log
+tmp/
+temp/
+.cache/
+
+# Python (por si algún proyecto lo usa)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (por si algún proyecto lo usa)
+node_modules/
+npm-debug.log*
+dist/
+build/
